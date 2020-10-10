@@ -16,7 +16,7 @@ def display(file, type):
         series.plot(style='k.')
     # Time Series Dashed Line Plot (Modified Line Plot where style of line is dashed lines)
     elif type == "dashed_line_plot":
-        series.plot(style='k.')
+        series.plot(style='k-')
     # Time Series Histogram where sentiment values are grouped into bins and the vertical axis is the frequency of each sentiment
     elif type == "histogram":
         series.hist()
