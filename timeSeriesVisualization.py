@@ -2,7 +2,7 @@ from pandas import read_csv
 from matplotlib import pyplot
 
 
-# Display the time series visualization
+# Display the time series plots/graphs
 def display(file, type):
     series = read_csv(file, encoding="ISO-8859-1", header=0, index_col=0, parse_dates=True, squeeze=True)
     # Loads the dataset and print the first 5 rows
